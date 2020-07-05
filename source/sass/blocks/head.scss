@@ -1,0 +1,27 @@
+.head__nav {
+  margin: 0 160px;
+  padding-top: 20px;
+}
+
+.head__list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.head__item--logo {
+  flex-grow: 2;
+}
+
+.head__link {
+  margin-left: 52px;
+  font-size: 16px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.head__link--logo {
+  margin: 0;
+}
