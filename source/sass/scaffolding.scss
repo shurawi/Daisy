@@ -70,8 +70,10 @@ img {
   cursor: pointer;
 }
 
-.link__down {
-  display: block;
+.ref__down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .visually-hidden {
