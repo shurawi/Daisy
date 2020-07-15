@@ -1,0 +1,22 @@
+.footer__wrap {
+  height: 210px;
+  background: url("../img/footer__bg.png") no-repeat, green;
+  background-position: 0 -28px;
+  border-top: 1px solid rgba(255, 255, 255, 0);
+}
+
+.footer__link {
+  margin: 75px 480px 0;
+  padding: 0 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 32px;
+  font-family: "PFEncoreSansPro-Bold";
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__span {
+  margin-left: 20px;
+}
