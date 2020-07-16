@@ -1,7 +1,7 @@
 
 .advantedges__wrap {
   position: relative;
-  background-color: #f2f2f2
+  background-color: #f2f2f2;
 }
 
 .advantedges__head {
@@ -10,14 +10,14 @@
   left: 509px;
   font-size: 28px;
   line-height: 28px;
-  font-family: "PFEncoreSansPro-Medium";
+  font-family: "PFEncoreSansPro-Medium", "Arial", sans-serif;
   text-align: center;
   text-transform: uppercase;
   color: #868686;
 }
 
 .advantedges__span {
-  font-family: "PFEncoreSansPro-Medium";
+  font-family: "PFEncoreSansPro-Medium", "Arial", sans-serif;
   color: #fc635e;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .advantedges__item:nth-child(2n) {
-  background: #fff;
+  background: #ffffff;
 }
 
 .advantedges__text--landing {
@@ -57,7 +57,7 @@
   margin-left: 20px;
   font-size: 28px;
   line-height: 28px;
-  font-family: "PFEncoreSansPro-Medium";
+  font-family: "PFEncoreSansPro-Medium", "Arial", sans-serif;
   text-transform: uppercase;
   color: #868686;
 }
@@ -70,7 +70,6 @@
   width: 10px;
   height: 39px;
   background: #fc635e;
-
 }
 
 .advantedges__title--adv {
@@ -108,7 +107,7 @@
   font-size: 20px;
   line-height: 26px;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   background-color: #fc635e;
   border-radius: 6px;
 }

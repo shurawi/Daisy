@@ -7,7 +7,7 @@
 .process__head {
   font-size: 28px;
   line-height: 28px;
-  font-family: "PFEncoreSansPro-Medium";
+  font-family: "PFEncoreSansPro-Medium", "Arial", sans-serif;
   text-align: center;
   text-transform: uppercase;
   color: #868686;
@@ -60,7 +60,7 @@
   right: 235px;
   width: 262px;
   height: 302px;
-  background: url("../img/process_border-st4.png") no-repeat, url("../img/process__hex-big.png") no-repeat;
+  background: url("../img/process_border-st4.png") no-repeat, url("../img/process__hex-big.svg") no-repeat;
 
   &::before {
     content: "";
@@ -71,7 +71,7 @@
     height: 32px;
     border-radius: 50%;
     border: 3px solid #fc635d;
-    background: url("../img/icon__rocket.svg") no-repeat, #fff;
+    background: url("../img/icon__rocket.svg") no-repeat, #ffffff;
     background-position: center;
   }
 }

@@ -8,7 +8,7 @@
   color: #868686;
   text-align: center;
   text-transform: uppercase;
-  font-family: "PFEncoreSansPro-Medium";
+  font-family: "PFEncoreSansPro-Medium", "Arial", sans-serif;
 }
 
 .services__span {
@@ -20,7 +20,7 @@
   font-size: 20px;
   line-height: 26px;
   text-align: center;
-  color: #adadad
+  color: #adadad;
 }
 
 .services__list {
@@ -47,29 +47,33 @@
 
 .services__item--clients {
   &::before {
-    background: url("../img/icon__clients.svg") no-repeat, url("../img/services__hex-middle.png") no-repeat, url("../img/services__hex-big.png") no-repeat;;
-    background-position: center, 5px 6px, 0 0;
+    background: url("../img/icon__clients.svg") no-repeat, url("../img/hex__small.svg") no-repeat, url("../img/hex__big.svg") no-repeat;
+    background-size: 34px 39px, 91px 104px, 101px 116px;
+    background-position: center;
   }
 }
 
 .services__item--brand {
   &::before {
-    background: url("../img/icon__brand.svg") no-repeat, url("../img/services__hex-middle-white.png") no-repeat, url("../img/services__hex-big.png") no-repeat;;
-    background-position: center, 4px 6px, 0 0;
+    background: url("../img/icon__brand.svg") no-repeat, url("../img/hex__small--white.svg") no-repeat, url("../img/hex__big.svg") no-repeat;
+    background-size: 41px 38px, 91px 104px, 101px 116px;
+    background-position: center;
   }
 }
 
 .services__item--mark {
   &::before {
-    background: url("../img/icon__mark.svg") no-repeat, url("../img/services__hex-middle.png") no-repeat, url("../img/services__hex-big.png") no-repeat;;
-    background-position: center, 5px 6px, 0 0;
+    background: url("../img/icon__mark.svg") no-repeat, url("../img/hex__small.svg") no-repeat, url("../img/hex__big.svg") no-repeat;
+    background-size: 37px 37px, 91px 104px, 101px 116px;
+    background-position: center;
   }
 }
 
 .services__item--adv {
   &::before {
-    background: url("../img/icon__adv.svg") no-repeat, url("../img/services__hex-middle.png") no-repeat, url("../img/services__hex-big.png") no-repeat;;
-    background-position: center, 5px 6px, 0 0;
+    background: url("../img/icon__adv.svg") no-repeat, url("../img/hex__small.svg") no-repeat, url("../img/hex__big.svg") no-repeat;
+    background-size: 37px 38px, 91px 104px, 101px 116px;
+    background-position: center;
   }
 }
 
@@ -90,5 +94,4 @@
 .services__ref {
   margin-top: 50px;
   text-align: center;
-
 }

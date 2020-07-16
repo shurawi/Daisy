@@ -20,7 +20,7 @@
   background: url("../img/hex__small.svg") no-repeat, #fe8682;
   background-size: 189px 218px, 100%;
   background-position: center;
-  color: #fff;
+  color: #ffffff;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
@@ -28,7 +28,7 @@
   margin-top: 72px;
   font-size: 26px;
   line-height: 26px;
-  font-family: "PFEncoreSansPro-Medium";
+  font-family: "PFEncoreSansPro-Medium", "Arial", sans-serif;
 }
 
 .map__address {

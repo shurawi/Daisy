@@ -9,8 +9,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/PFEncoreSansPro-Bold.woff2") format("woff2"),
-       url("../fonts/PFEncoreSansPro-Bold.woff.woff") format("woff"),
+  src: url("../fonts/PFEncoreSansPro-Bold.woff2") format("woff2"), url("../fonts/PFEncoreSansPro-Bold.woff.woff") format("woff");
 }
 
 @font-face {
@@ -18,8 +17,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/PFEncoreSansPro-Light.woff2") format("woff2"),
-       url("../fonts/PFEncoreSansPro-Light.woff.woff") format("woff"),
+  src: url("../fonts/PFEncoreSansPro-Light.woff2") format("woff2"), url("../fonts/PFEncoreSansPro-Light.woff.woff") format("woff");
 }
 
 @font-face {
@@ -27,8 +25,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/PFEncoreSansPro-Medium.woff2") format("woff2"),
-       url("../fonts/PFEncoreSansPro-Medium.woff.woff") format("woff"),
+  src: url("../fonts/PFEncoreSansPro-Medium.woff2") format("woff2"), url("../fonts/PFEncoreSansPro-Medium.woff.woff") format("woff");
 }
 
 body {
@@ -68,6 +65,12 @@ img {
   border: 2px solid #fc635e;
   border-radius: 10px;
   cursor: pointer;
+
+  &:hover {
+    color: #ffffff;
+    background-color: rgba(252, 99, 94, 1);
+    border: 2px solid #ffffff;
+  }
 }
 
 .ref__down {

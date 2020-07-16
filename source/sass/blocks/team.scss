@@ -6,15 +6,15 @@
 .team__head {
   font-size: 28px;
   line-height: 28px;
-  font-family: "PFEncoreSansPro-Medium";
+  font-family: "PFEncoreSansPro-Medium", "Arial", sans-serif;
   text-align: center;
   text-transform: uppercase;
   color: #565656;
 }
 
 .team__span {
-  font-family: "PFEncoreSansPro-Medium";
-  color: #fc635e
+  font-family: "PFEncoreSansPro-Medium", "Arial", sans-serif;
+  color: #fc635e;
 }
 
 .team__list {
@@ -40,7 +40,7 @@
   margin-top: 25px;
   font-size: 28px;
   line-height: 28px;
-  font-family: "PFEncoreSansPro-Light";
+  font-family: "PFEncoreSansPro-Light", "Arial", sans-serif;
   color: #565656;
 
   .team__span {
@@ -93,11 +93,15 @@
   height: 37px;
   background: #565656;
   border-radius: 50%;
+
+  &:hover {
+    background: #fc635e;
+  }
 }
 
 .team__svg {
   position: absolute;
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .team__svg--tw {
