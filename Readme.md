@@ -1,4 +1,4 @@
-<img width="139" height="68" alt="Daisy logo" src="https://github.com/shurawi/Daisy/tree/master/source/img/head__logo.png">
+<img width="139" height="68" alt="Daisy logo" src="https://github.com/shurawi/Daisy/blob/master/source/img/head__logo.png">
 
 # Landing page: "Daisy"
 
