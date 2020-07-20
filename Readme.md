@@ -24,4 +24,4 @@ npm run startsource
 ```
 for production build run:
  ```bush
- npm run build
+ npm run start
