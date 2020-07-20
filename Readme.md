@@ -2,7 +2,7 @@
 
 # Landing page: "Daisy"
 
-I was made this page for 25 hours
+I was made this page for 26 hours
 ## Before launch
 Download and install [Node](https://nodejs.org/en/).
 

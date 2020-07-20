@@ -110,6 +110,12 @@
   color: #ffffff;
   background-color: #fc635e;
   border-radius: 6px;
+
+  &:hover {
+    color: #fc635e;
+    background-color: #ffffff;
+    border: 1px solid #fc635e;
+  }
 }
 
 .advantedges__link--adv {
