@@ -91,3 +91,36 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.up-button {
+  position: fixed;
+  width: 54px;
+  height: 54px;
+  padding: 0;
+  display: none;
+  bottom: 50%;
+  right: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background: url("../img/icon__link-down.png") no-repeat;
+  background-position: 47% 50%;
+  border: 5px solid #fc635e;
+  border-radius: 50%;
+  outline: none;
+  transform: rotate(180deg);
+  cursor: pointer;
+  z-index: 1;
+
+  &:hover,
+  &:focus {
+    background: url("../img/icon__link-down-white.png") no-repeat;
+    background-position: 47% 50%;
+  }
+}
+
+.up-button--shown {
+  display: inline-block;
+}
