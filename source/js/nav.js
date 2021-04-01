@@ -37,7 +37,3 @@ window.onscroll = function () {
     upButton.classList.remove('up-button--shown');
   }
 };
-
-upButton.onclick = function () {
-  window.scrollTo(0, 0);
-};

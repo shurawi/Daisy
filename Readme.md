@@ -4,6 +4,8 @@
 
 In this project I used: Gulp, SASS(SCSS), flex-box, anchor link, up-button.
 
+To following this link you can see [this page](https://shurawi.github.io/daisy-pv/)
+
 ## Before launch
 Download and install [Node](https://nodejs.org/en/).
 
